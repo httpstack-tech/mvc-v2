@@ -1,7 +1,13 @@
-<?php
+uaAaaq was<?php
+//going over PHP in python
 
+//from App/Controllers/Routes/routes import defaultRoutes
 namespace App\Controllers\Routes;
 
+//import Core/Http/Request
+//import Core/Http/Response
+
+//import Core/Container/Container
 use Core\Http\Request;
 use Core\Http\Response;
 use Core\Container\Container;
@@ -12,6 +18,10 @@ use Core\IO\FS\FileLoader;
 use Core\Test\MyClass;
 
 //use Core\Template\Template;
+// class HomeController(BaseHTTPRequestHandler):
+    //def __init__(self, container as c):
+        //pass
+    //def index(self, container as c, matches as m):
 class HomeController
 {
     public function __construct() {}
