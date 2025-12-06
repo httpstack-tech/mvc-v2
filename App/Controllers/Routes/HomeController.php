@@ -22,6 +22,7 @@ use Core\Test\MyClass;
     //def __init__(self, container as c):
         //pass
     //def index(self, container as c, matches as m):
+        //response = c.make()
 class HomeController
 {
     public function __construct() {}
@@ -29,7 +30,7 @@ class HomeController
     {
         //bind the view data to the container so its available
         //within the ViewModel make
-        $this->home($c, $matches);
+       
         $res = $c->make(Response::class);
         $fl = $c->make(FileLoader::class);
         $res->setHeader("Content-Type:", "text/html");
